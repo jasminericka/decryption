@@ -20,3 +20,6 @@ for char in encr_text:
     else:
         decr_text += char
 #print output
+print("=*" * 80)
+print(decr_text)
+print("=*" * 80)
