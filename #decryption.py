@@ -14,4 +14,9 @@ characters = {
     '!':'u'
 }
 #decrypt
+for char in encr_text:
+    if char in characters:
+        decr_text += characters[char]
+    else:
+        decr_text += char
 #print output
