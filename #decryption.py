@@ -1,6 +1,7 @@
 #jasmin ericka celebre
 #problem 2 decryption
 
+import pyfiglet
 #ask user to input encrypted text
 encr_text = input("What is the encrypted text?")
 #initialize empty decrypted text
@@ -21,5 +22,5 @@ for char in encr_text:
         decr_text += char
 #print output
 print("=*" * 80)
-print(decr_text)
+print(pyfiglet.figlet_format(decr_text, font="smkeyboard", justify="center"))
 print("=*" * 80)
